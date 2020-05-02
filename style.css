@@ -10,6 +10,7 @@ body {
 header {
     background-color: #333333;
     margin: 0;
+    text-align: center;
 }
     
 h1 {
@@ -24,7 +25,6 @@ h2 {
 .container { 
     width: 1024px;
     height: 200px;
-    text-align: center; 
     margin: 0 auto;
 }
 
@@ -34,6 +34,7 @@ h2 {
 
 #bio-image {
     width: 200px;
+    height: 200px;
     margin-right: 10px;
     margin-left: 0;
 } 
@@ -45,8 +46,9 @@ h2 {
 #contact-info { 
     width: 30%;
     line-height: 1.5;
-}​
+    text-align: top;
+}    
 
-a { 
+a:link { 
     color: #d21034;
 }
